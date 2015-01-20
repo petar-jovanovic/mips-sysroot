@@ -1,10 +1,5 @@
 #!/bin/bash
-# Copyright (c) 2012 The Native Client Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-#
 #@ This script creates the mips trusted SDK.
-#@ It must be run from the native_client directory.
 
 # This script is intended to build a mipsel-linux-gnu cross compilation
 # toolchain that runs on x86 linux and generates code for a little-endian,
@@ -141,11 +136,6 @@ DownloadOrCopyAndVerify() {
 # with the right tools.
 SanityCheck() {
   Banner "Sanity Checks"
-  if [[ $(basename $(pwd)) != "native_client" ]] ; then
-    echo "ERROR: run this script from the native_client/ dir"
-    exit -1
-  fi
-
   if ! mkdir -p "${INSTALL_ROOT}" ; then
      echo "ERROR: ${INSTALL_ROOT} can't be created."
     exit -1
