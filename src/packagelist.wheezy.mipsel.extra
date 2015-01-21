@@ -43,6 +43,7 @@ libgcrypt11-dev
 libgdk-pixbuf2.0-0
 libgdk-pixbuf2.0-dev
 libgdk-pixbuf2.0-common
+libgl1-mesa-dev
 libgnutls26
 libgnutls-dev
 libgpg-error0
