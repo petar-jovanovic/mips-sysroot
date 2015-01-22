@@ -7,8 +7,6 @@ libasound2-dev
 libatk1.0-0
 libatk1.0-dev
 libattr1
-libxau6
-libxau-dev
 libavahi-client3
 libavahi-client-dev
 libavahi-common3
@@ -44,6 +42,7 @@ libgdk-pixbuf2.0-0
 libgdk-pixbuf2.0-dev
 libgdk-pixbuf2.0-common
 libgl1-mesa-dev
+libgl1-mesa-swx11
 libgnutls26
 libgnutls-dev
 libgpg-error0
@@ -97,6 +96,8 @@ libtasn1-3-dev
 libudev0
 libudev-dev
 libx11-6
+libxau6
+libxau-dev
 libx11-dev
 libxext6
 libxext-dev
@@ -134,6 +135,7 @@ libxt6
 libxt-dev
 libxtst6
 libxtst-dev
+mesa-common-dev
 python2.6
 python2.6-dev
 x11proto-core-dev
